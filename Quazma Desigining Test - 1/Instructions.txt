@@ -1,0 +1,11 @@
+Create a HTML page using page.jpg mockup file. 
+
+The HTML has to be pixel perfect and close to jpg file as much as possible.
+
+Required resources are avaiable in resources folder, if anything missing, use dummy content.
+
+For icons use dummy font awesome icons for now.
+
+There are three sliders in the page, they should be live.
+
+Use google's Noto Sans font family.

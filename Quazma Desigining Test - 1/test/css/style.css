@@ -1,0 +1,385 @@
+
+body{
+	font-family: 'Noto Sans', sans-serif;
+    background: url('../assets/Background Texture.png') !important;
+}
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+      
+  }
+  .border{
+	  border-bottom: 4px solid #165694;
+  }
+  
+  .masthead .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    width: 100%;
+}
+ header.masthead .overlay {
+    position: absolute;
+    background-color:#082a56d9;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}
+header.masthead h1 {
+    font-size: 46px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: inherit;
+	    margin-bottom: 24px;
+
+}
+.btn-light{
+	
+    text-transform: uppercase;
+    background: #9ac005;
+    border-radius: 0;
+    padding: 10px 42px;
+
+}
+.showcase .showcase-text {
+  padding: 3rem; }
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover; }
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem; } }
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .features-icons .features-icons-item {
+    max-width: 20rem; }
+    .features-icons .features-icons-item .features-icons-icon {
+      height: 7rem; }
+      .features-icons .features-icons-item .features-icons-icon i {
+        font-size: 4.5rem; }
+    .features-icons .features-icons-item:hover .features-icons-icon i {
+      font-size: 5rem; }
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .testimonials .testimonial-item {
+    max-width: 18rem; }
+    .testimonials .testimonial-item img {
+      max-width: 12rem;
+      box-shadow: 0px 5px 5px 0px #adb5bd; }
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3; }
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  
+  #custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+     background: #ededed;
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+		    BORDER: NONE;
+    }
+ 
+    #custom-search-input button {
+		FONT-SIZE: 18px;
+    border: 0;
+    background: none;
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: 12px;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #bdbebf;
+    position: absolute;
+    top: 2px;
+    box-shadow: none;
+
+}
+.navbar .input-group-btn {
+    position: absolute;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+ .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    BACKGROUND: #fafafa;
+
+    padding: 14px 0;
+
+}
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+/* Carousel base class */
+.carousel {
+  min-height: 550px;
+  
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  min-height: 550px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 500px;
+}
+.carousel .fa{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+      background-color: rgba(214, 210, 210, 0.93);
+    border: 1px solid #bbbaba;
+
+    border-radius: 10px;
+}
+.carousel-control {
+   
+    z-index: 9999;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+top: 24%;}
+
+.carousel-caption  span{
+    background: #1074b4;
+    padding: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    background-color: #9ac005;
+    border-color: #9ac005;
+}
+
+.carousel-indicators {
+    position: absolute;
+       bottom: 76px;
+left: 52%;}
+.bg{
+
+	    padding: 80px 0;
+    background-position: center;
+    background-size: cover;
+}
+.mid-part {
+    padding: 60px 0;
+    position: absolute;
+    /* top: 0; */
+    z-index: 999;
+    margin-top: -114px;
+    background: #fff;
+    width: 74%;
+    margin-left: auto;
+    left: 0;
+    box-shadow: 0 43PX 21px 9px rgba(185, 186, 187, 0.8);
+    margin-right: auto;
+    right: 0;
+}
+.top-part h3{
+	margin-top:0;
+	color:#165694;
+	font-weight:bold;
+}
+.letter-spacing{
+	    margin-bottom: 34px;
+letter-spacing: 2px;}
+.para-head{
+    padding: 20px 70px;
+    color: #000;
+    font-size: 16px;
+}
+.content-mid{
+
+    top: 0; 
+    z-index: 999;
+    /* margin-top: -114px; */
+    background: #fff;
+    width: 108%;
+    margin-left: -38px;
+    left: -38px;
+   
+    margin-right: auto;
+    right: 0;
+}
+.box-1{
+	background:url('../assets/box1.png') !important;
+	height: 500px;
+}
+.box-2{
+	background:url('../assets/box1.png') !important;
+	height: 230px;
+}
+.content-mid header.masthead h1 {
+   font-size: 29px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: inherit;
+    margin-bottom: 24px;
+    position: absolute;
+    color: #fff;
+    z-index: 99;
+	    top: 38px;
+    bottom: 0;
+    padding: 39px;
+}
+.masthead h1{
+	font-size:30px;
+	color:#fff;
+}
+.bx{
+	margin-bottom:40px;
+}
+header.col-sm-7 {
+    width: 57.333333%;
+    margin-left: 10px;
+}
+.box-2 h1 {
+    font-size: 26px !important;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: inherit;
+    margin-bottom: 24px;
+    position: absolute;
+    color: #fff;
+    z-index: 99;
+    top: 38px;
+    bottom: 0;
+    padding: 39px;
+    width: 69%;
+}
+.box-shadow{
+	
+	    box-shadow: 0 2px 8px 3px #666;
+}
+.common {
+    padding: 128px 0;
+       display: inline-block;
+}
+.list {
+    box-shadow: 0 3PX 7px 5px rgba(185, 186, 187, 0.8);
+    background: #fff;
+        padding: 26px;
+}
+.list ul{
+	    font-size: 12px;
+    list-style-type: none;
+    padding-left: 0;
+    color: #419da2;
+    text-decoration: underline;
+    line-height: 20px;
+}
+.list h5{
+    font-size: 20px;
+       margin-top: 37px;
+    font-weight: 500;
+}
+.list ul li{
+	margin-top:20px;
+}
+.icon{
+    position: absolute;
+    top: -48px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #165694;
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.icon i{
+	color:#fff;
+	 line-height: 81px;
+    font-size: 23px;
+
+}
+.top-part11{
+	
+    margin-bottom: 78px;
+}
